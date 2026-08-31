@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="grid min-h-screen place-items-center"><div className="text-sm text-neutral-500">Loading experience…</div></main>}
