@@ -1,0 +1,2 @@
+import {portfolio} from "@/data/portfolio";
+export function StructuredData(){const data={"@context":"https://schema.org","@type":"Person",name:portfolio.personal.name,jobTitle:portfolio.personal.heroTitle,email:portfolio.personal.email,sameAs:portfolio.socials.map(s=>s.href).filter(h=>h!=="#")};return <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(data)}}/>;}
